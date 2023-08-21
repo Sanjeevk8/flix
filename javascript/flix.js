@@ -13,7 +13,7 @@ $('.img').click(function() {
 
   const centerdiv=document.getElementById("centerdiv");
 
-  fetch("netflix.json.json").then((apidata)=>{
+  fetch("netflix.json").then((apidata)=>{
     return apidata.json();
   })
   .then((jsondata)=>{
