@@ -22,7 +22,8 @@ $('.img').click(function() {
       let img = document.createElement("img");
       img.src = val._embedded.show.image.medium;
       centerdiv.appendChild(img);
-      // console.log(val._embedded.show.image.medium);
+      console.log(val._embedded.show.image.medium);
+      
     });
   });
 
